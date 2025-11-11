@@ -1,8 +1,8 @@
 * {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-background-color: coral;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: coral;
 }
 
 body {
@@ -15,27 +15,33 @@ body {
     margin: 5em auto 0;
     border-radius: 1em;
     background-color: green;
-    
+
 }
 
-a:hover{
-    color: yellow; }
+a:hover {
+    color: yellow;
+}
 
 p {
-    background-color: green; }
+    background-color: green;
+}
 
 h1 {
     border-bottom: 1px solid crimson;
-    background-color: green; }
+    background-color: green;
+}
 
 form {
-    background-color: green; }
+    background-color: green;
+}
 
 li {
-    background-color: green; }
+    background-color: green;
+}
 
 td {
-   background-color: green; }
+    background-color: green;
+}
 
 th {
     background-color: green;
@@ -43,4 +49,8 @@ th {
 
 a {
     background-color: green;
+}
+
+:root {
+    --bg-color: rgb(50, 50, 50);
 }
